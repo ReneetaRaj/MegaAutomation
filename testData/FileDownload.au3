@@ -25,8 +25,7 @@ Func Example()
 
 
 For $i = 0 To 2 Step 1
- MsgBox($MB_SYSTEMMODAL, "Title", $arr[$i], 10)
-    Local $BytesSize = InetGet($arr[$i], $sFilePath, $INET_FORCERELOAD)
+     Local $BytesSize = InetGet($arr[$i], $sFilePath, $INET_FORCERELOAD)
 Next
 
 EndFunc
