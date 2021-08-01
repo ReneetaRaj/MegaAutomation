@@ -1,14 +1,34 @@
 package mega.base;
 
-import java.io.IOException;
 
-import org.openqa.selenium.By;
+
+import org.junit.runner.RunWith;
+
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 
+
+import io.cucumber.junit.Cucumber;
+import io.cucumber.testng.CucumberOptions;
+
+
+
+
+
+@RunWith(Cucumber.class)				
+@CucumberOptions(features="src/test/java/mega.features",glue={"src/main/java/mega.stepDefinition"})	
 public class BaseClass {
 
 	  protected WebDriver driver;
+
+	public WebDriver getDriver() {
+		return driver;
+	}
+
+	public void setDriver(WebDriver driver) {
+		this.driver = driver;
+	}
+	
+
 	  
 	  
 

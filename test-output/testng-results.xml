@@ -2,19 +2,23 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="39138" started-at="2021-07-30T00:24:40 NZST" finished-at="2021-07-30T00:25:19 NZST">
+  <suite name="Suite" duration-ms="49226" started-at="2021-07-30T22:25:35Z" finished-at="2021-07-30T22:26:24Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="39138" started-at="2021-07-30T00:24:40 NZST" finished-at="2021-07-30T00:25:19 NZST">
+    <test name="Test" duration-ms="49226" started-at="2021-07-30T22:25:35Z" finished-at="2021-07-30T22:26:24Z">
       <class name="mega.automation.AppTest">
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:mega.automation.AppTest@13eb8acf]" name="SetUp" is-config="true" duration-ms="10" started-at="2021-07-30T00:24:40 NZST" finished-at="2021-07-30T00:24:40 NZST">
+        <test-method status="PASS" signature="Initialise()[pri:0, instance:mega.automation.AppTest@66480dd7]" name="Initialise" is-config="true" duration-ms="18141" started-at="2021-07-30T22:25:35Z" finished-at="2021-07-30T22:25:53Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="Login()[pri:0, instance:mega.automation.AppTest@13eb8acf]" name="Login" duration-ms="39072" started-at="2021-07-30T00:24:40 NZST" finished-at="2021-07-30T00:25:19 NZST">
+        </test-method> <!-- Initialise -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:mega.automation.AppTest@66480dd7]" name="Login" is-config="true" duration-ms="9835" started-at="2021-07-30T22:25:53Z" finished-at="2021-07-30T22:26:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
+        <test-method status="PASS" signature="CreateAFile()[pri:0, instance:mega.automation.AppTest@66480dd7]" name="CreateAFile" duration-ms="21201" started-at="2021-07-30T22:26:03Z" finished-at="2021-07-30T22:26:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateAFile -->
       </class> <!-- mega.automation.AppTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->

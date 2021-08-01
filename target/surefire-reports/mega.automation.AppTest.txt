@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: mega.automation.AppTest
 -------------------------------------------------------------------------------
-Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.446 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 51.061 sec
