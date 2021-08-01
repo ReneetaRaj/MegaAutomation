@@ -112,11 +112,12 @@ public class Steps extends BaseClass {
 		landingpage.assertIsDisplayed(createdFile);
 		
 	}
+
 	
 	@After
 	public void TearDown() {
 
-	  getDriver().close();
+	 getDriver().close();
 		
 			
 	}

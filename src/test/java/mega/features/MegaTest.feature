@@ -17,4 +17,6 @@ Feature: All scenarios with respect to Create Delete and Restore
     When the user navigates to Rubbish bin
     And the user restores a file
     Then the user should be allowed to restore a file successfully
+
+  
    
